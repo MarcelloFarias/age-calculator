@@ -20,9 +20,9 @@ function calculateAge() {
         year = year - 1;  
        }
 
-       var difDay = day - inputDay.value;  
-       var difMonth = month - inputMonth.value;  
-       var difYear = year - inputYear.value;
+       let difDay = day - inputDay.value;  
+       let difMonth = month - inputMonth.value;  
+       let difYear = year - inputYear.value;
 
        result.innerText = `You age is ${difYear} years, ${difMonth} months and ${difDay} days.`;
 }
